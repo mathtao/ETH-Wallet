@@ -1,0 +1,41 @@
+PODS:
+  - BigInt (5.2.0)
+  - CryptoSwift (1.5.1)
+  - secp256k1.c (0.1.2)
+  - Starscream (4.0.8)
+  - SwiftKeychainWrapper (4.0.1)
+  - Web3Core (3.1.2):
+    - BigInt (~> 5.2.0)
+    - CryptoSwift (~> 1.5.1)
+    - secp256k1.c (~> 0.1)
+  - web3swift (3.1.2):
+    - Starscream (~> 4.0.4)
+    - Web3Core (~> 3.1.2)
+
+DEPENDENCIES:
+  - SwiftKeychainWrapper
+  - web3swift
+
+SPEC REPOS:
+  https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git:
+    - BigInt
+    - CryptoSwift
+    - secp256k1.c
+    - Starscream
+    - Web3Core
+    - web3swift
+  trunk:
+    - SwiftKeychainWrapper
+
+SPEC CHECKSUMS:
+  BigInt: f668a80089607f521586bbe29513d708491ef2f7
+  CryptoSwift: c4f2debceb38bf44c80659afe009f71e23e4a082
+  secp256k1.c: db47b726585d80f027423682eb369729e61b3b20
+  Starscream: 19b5533ddb925208db698f0ac508a100b884a1b9
+  SwiftKeychainWrapper: 807ba1d63c33a7d0613288512399cd1eda1e470c
+  Web3Core: 050eb18f0434ac16c42eb7b2270fbce325935128
+  web3swift: 8496f6615c3a1f86e7c9e5fe16c5422ef181527b
+
+PODFILE CHECKSUM: 8ff507cacea63846350744df51c2bc8b6ba722f8
+
+COCOAPODS: 1.15.2
